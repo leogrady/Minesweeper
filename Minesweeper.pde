@@ -43,7 +43,6 @@ public void draw ()
     if(isWon())
     {
         displayWinningMessage();
-        System.out.println("win");
     }
      for (int r = 0; r < NUM_ROWS; r++){
         for (int c = 0; c < NUM_COLS; c ++){
